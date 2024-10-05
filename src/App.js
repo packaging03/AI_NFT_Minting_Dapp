@@ -14,6 +14,9 @@ import NFT from "./abis/NFT.json";
 
 // Config
 import config from "./config.json";
+// import { wait } from "@testing-library/user-event/dist/utils";
+// import { type } from "os";
+// import { network } from "hardhat";
 
 function App() {
   const [provider, setProvider] = useState(null);
