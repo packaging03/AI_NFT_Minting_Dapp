@@ -55,7 +55,6 @@ function App() {
     const imageData = await createImage();
     //upload image to ipfs
     const url = await uploadImage(imageData);
-    console.log("url: ", url);
 
     await mintImage(url);
     setIsWaiting(false);
